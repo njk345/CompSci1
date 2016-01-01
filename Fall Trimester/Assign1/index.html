@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>  Smartphones </title>
+
+<!-- Adds a cool, interactive cookie that greets you when you visit site--!>
+<script>
+function getCookie(c_name)
+{
+var c_value = document.cookie;
+var c_start = c_value.indexOf(" " + c_name + "=");
+if (c_start == -1)
+ {
+ c_start = c_value.indexOf(c_name + "=");
+ }
+if (c_start == -1)
+ {
+ c_value = null;
+ }
+else
+ {
+ c_start = c_value.indexOf("=", c_start) + 1;
+ var c_end = c_value.indexOf(";", c_start);
+ if (c_end == -1)
+   {
+   c_end = c_value.length;
+   }
+ c_value = unescape(c_value.substring(c_start,c_end));
+ }
+return c_value;
+}
+
+function setCookie(c_name,value,exdays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate() + exdays);
+var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+document.cookie=c_name + "=" + c_value;
+}
+
+function checkCookie()
+{
+var username=getCookie("username");
+if (username!=null && username!="")
+ {
+ alert("Welcome again " + username);
+ }
+else 
+ {
+ username=prompt("Please enter your name:","");
+ if (username!=null && username!="")
+   {
+   setCookie("username",username,365);
+   }
+ }
+}
+</script>
+</head>
+
+
+<!-- START OF BODY--!>
+
+<body style = "background-color:LightSteelBlue" onload="checkCookie()">
+
+<!--The title--!>
+<h1 style = "text-align:center;font-family:tahoma;"> <strong> Smartphones: Their Vulnerabilities and Strengths<strong> 
+</h1>
+
+<h4 style = "text-align:center; font-family:tahoma;"> <a href = "mailto:nkeirstead@me.com?Subject=About%20Your%20Webpage"> By Nick Keirstead </a> </h4>
+
+<hr>
+
+<!--An image leading to itself--!>
+<a href = "http://www.empowernetwork.com/dantegd76/files/2013/05/Phonessssssssss.jpeg" target = "_blank"> 
+<img src = "http://www.empowernetwork.com/dantegd76/files/2013/05/Phonessssssssss.jpeg" width = "250" height = "170" alt = "Picture of Smarthphones">
+</a>
+
+
+<!--This makes scrolling sign--!>
+<p>
+<marquee style = "font-family:tahoma;color:black;font-size:14px;"> 
+Welcome to my information page! 
+</marquee>
+</p>
+
+<!-- BEGINNING OF CONTENT --!>
+
+<h2> Smartphones are Everywhere! </h2>
+<p> Only twenty years ago, the three main things that people carried with them out of the house were keys, a wallet, and perhaps a bag of some sort. Nowadays, just about everyone carries one extra item that people from the past could never have dreamed of:<br> <strong> a  smartphone. </strong> </br> </p>
+<p> These technological marvels aid us in every facet of our lives - from the entertainment of <em> <a href = "https://itunes.apple.com/us/app/angry-birds/id403961173?mt=12" target = "_blank"> Angry Birds </a> </em>, to sending a banking transaction with the tap (and maybe a swipe or two) of the finger. Smartphones give us endless possibilities  and are rapidly rendering other forms of technology obsolete. For example, many households no longer even use landline telephones, favoring the pocket devices instead. As well, very few people are buying CD's (considered high-tech a decade ago), for smartphones provide services such as iTunes, which allow you to listen to music from an application or app on your phone. For all these wonderful improvements that smartphones provide, however, there must also be disadvantages, perhaps dangerous ones, that users can encounter. This begs the question... 
+</p>
+
+<h2> Are Smartphones <font color = "green"> Good </font>  or  <font color = "red"> Bad </font>? </h2>
+
+<p>Sometimes smartphones do their job a bit too well. They can consistently take you away from what is important in life, preventing one from normal socialization with family and friends. Because of their addictive quality and ease of use, they can lead you to do dangerous things, such as texting and driving, which can prove to be fatal. As well, smartphones allow for quick use of various social media sites, which is not only distracting but also creates the potential for anonymous cyber-bullying, especially among younger users.   </p>
+
+<p>One potential danger for smartphones that most people have never thought about is cyberattacks. Since there have been no widespread attacks on cellular phones as of yet, not much attention has been paid to this threat. Anti-virus software companies, however, are trying to raise the public's awareness about it, mostly to attract business. So while there is not yet a market for anti-virus software for smartphones, this may change in the near future, as hackers are widening their range of possible targets.  </p>
+
+<p>Looking on the bright side, smartphones have also literally saved lives. In 2007, a woman, while driving, went off the road into a ravine outside Seattle. She was trapped inside of her car, upside down, for eight days until she was finally rescued and rushed to the hospital. Amazingly, she survived. Now perhaps you might be wondering: how was she found? Well, her cell phone provider had been monitoring the last location of her phone before she crashed, and could give this information to the police. This is an example of being saved by "bits".
+</p>
+
+<h2> The World of Bits! </h2>
+
+<p> The theoretical unit of information in computing is called the "bit." It stands for binary integer, which means that it can be represented by two values: 0 or 1. The physical manifestation of a bit is in a computer, where the simplest units of data (bits) exist as a simple on or off switch - a presence of an electrical current or not. These bits compound into much larger units, such as bytes, kilobytes, megabytes, all the way up to a yottabyte. All in all, bits serve as the basic foundation for all computerized technology in the world.  </p>
+
+<h2> Smartphones are Neither Good nor Bad </h2>
+
+<p> This is my honest opinion on the issue. Smartphones, in the end, are what you make of them. With a device that makes it so easy to step over the line,  we as humans have many responsibilities. There is really no need for hacking other people's private information, being malicious (with words) on social media and the Internet in general, or allowing oneself to be taken over by the phone. We must use its technology in the ways it is meant to be used: for automation of otherwise tedious tasks, for communication, and, within moderation, for entertainment.   </p>
+
+<h3> Sources: </h3>
+
+<p>
+	<ul>
+		<li> <a href = "http://www.npr.org/templates/story/story.php?						storyId=111903991" target = "_blank"> Smartphone Security 			</a>
+		</li>
+		<li> <a href = "http://en.wikipedia.org/wiki/Bit" target = "_blank"> Bits 			</a> 										</li>
+		<li> <a href = "http://www.bitsbook.com/excerpts/" target = "_blank"> 				Online Textbook </a>
+		</li>
+
+	</ul>
+</p>
+
+
+
+</body>
+
+
+
+</html>
